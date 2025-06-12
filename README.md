@@ -59,9 +59,9 @@ Support for these template engines is included with Tilt:
 See [TEMPLATES.md][t] for detailed information on template engine
 options and supported features.
 
-[t]: http://github.com/jeremyevans/tilt/blob/master/docs/TEMPLATES.md
+[t]: docs/TEMPLATES.md
    "Tilt Template Engine Documentation"
-[slim]: https://github.com/jeremyevans/tilt/blob/master/lib/tilt/slim.rb "Slim Template Engine Documentation"
+[slim]: lib/tilt/slim.rb "Slim Template Engine Documentation"
 
 Basic Usage
 -----------
