@@ -49,7 +49,7 @@ Support for these template engines is included with Tilt:
 | Redcarpet            | .markdown, .mkd, .md   | redcarpet                     |
 | RedCloth             | .textile               | redcloth                      |
 | RstPandoc            | .rst                   | pandoc                        |
-| Slim                 | .slim                  | slim                          |
+| [Slim][slim]         | .slim                  | slim                          |
 | Sass                 | .sass                  | sass-embedded, sassc, or sass |
 | Scss                 | .scss                  | sass-embedded, sassc, or sass |
 | String               | .str                   | none                          |
@@ -61,6 +61,7 @@ options and supported features.
 
 [t]: http://github.com/jeremyevans/tilt/blob/master/docs/TEMPLATES.md
    "Tilt Template Engine Documentation"
+[slim]: https://github.com/jeremyevans/tilt/blob/master/lib/tilt/slim.rb "Slim Template Engine Documentation"
 
 Basic Usage
 -----------
@@ -216,11 +217,6 @@ In ERB templates, you can use the following comment format:
 <%# locals: () %>
 ```
 
-In slim templates, the comment format looks like this:
-
-```
-//# locals: ()
-```
 
 In string templates, it is a little ackward, but still possible (note that the
 closing `}` goes on a separate line:
